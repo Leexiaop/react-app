@@ -1,0 +1,9 @@
+//  Home
+export const GETUSERINFO = "GET_USER_INFO";
+export const GETMALEINFO = "GET_MALE_INFO";
+export const GETFEMALEINFO = "GET_FEMALE_INFO";
+
+//  Details
+export const GETDETAILS = "GET_DETAILS";
+export const GETMALEDETAILS = "GET_MALE_DETAILS";
+export const GETFEMALEDETAILS = "GET_FEMALE_DETAILS";
