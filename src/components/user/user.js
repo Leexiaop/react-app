@@ -8,10 +8,13 @@ class User extends Component {
             user: {}
         }
     }
+    getUserInfoData () {
+        getUserInfo()
+    }
     render() {
-        let { userinfo } = this.props
+        // let { userinfo } = this.props
         return(
-            <div>{"userinfo" + userinfo}</div>
+            <div onClick={this.getUserInfoData.bind(this)}>{"我是个按钮"}</div>
         )
     }
 }

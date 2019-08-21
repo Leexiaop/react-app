@@ -4,7 +4,7 @@ import fetch from 'cross-fetch'
 class FetchHttps {
     get(url) {
         return new Promise((resolve, reject) => {
-            fetch('https://localhost: 3000')
+            fetch('https://localhost:3000/story/list')
                 .then( res => res.json())
                 .then( data => resolve("data"))
                 .catch(err => reject(err))
